@@ -1,0 +1,1 @@
+console.log('HelpDesk System loaded');
