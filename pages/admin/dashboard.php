@@ -1,9 +1,9 @@
 <?php
-require_once '../../config/database.php';
-include '../../includes/header.php';
+require_once 'config/database.php';
+include 'includes/header.php';
 
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
-    header('Location: /sites/andrey/pages/login.php');
+    header('Location: /pages/login.php');
     exit;
 }
 
@@ -65,4 +65,4 @@ $new_tickets = $newTicketsCount->fetchColumn();
     </div>
 </section>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>

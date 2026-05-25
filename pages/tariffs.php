@@ -20,7 +20,7 @@
                     <li>Базовая статистика</li>
                 </ul>
 
-                <a href="subscribe.php?tariff=basic" class="btn">Выбрать тариф</a>
+                <a href="/pages/subscribe.php?tariff=basic" class="btn">Выбрать тариф</a>
             </div>
 
             <div class="tariff-card tariff-card_popular">
@@ -36,7 +36,7 @@
                     <li>Расширенная статистика</li>
                 </ul>
 
-                <a href="subscribe.php?tariff=standard" class="btn">Выбрать тариф</a>
+                <a href="/pages/subscribe.php?tariff=standard" class="btn">Выбрать тариф</a>
             </div>
 
             <div class="tariff-card">
@@ -55,7 +55,7 @@
         </div>
 
         <br>
-        <a href="/sites/andrey/index.php" class="btn btn_dark">На главную</a>
+        <a href="/index.php" class="btn btn_dark">На главную</a>
     </div>
 </section>
 

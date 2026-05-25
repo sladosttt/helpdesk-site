@@ -4,7 +4,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-$base = '/sites/andrey';
+$base = '';
 ?>
 
 <!DOCTYPE html>

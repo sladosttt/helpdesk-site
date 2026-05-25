@@ -24,11 +24,11 @@ $clients = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </p>
 
             <div class="hero__buttons">
-                <a href="/sites/andrey/pages/subscribe.php" class="btn">
+                <a href="/pages/subscribe.php" class="btn">
                     Оформить подписку
                 </a>
 
-                <a href="/sites/andrey/pages/login.php" class="btn btn_dark">
+                <a href="/pages/login.php" class="btn btn_dark">
                     Войти в систему
                 </a>
             </div>

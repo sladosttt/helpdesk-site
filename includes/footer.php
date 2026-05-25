@@ -1,5 +1,5 @@
 <?php
-$base = '/sites/andrey';
+$base = '';
 ?>
 
 </main>

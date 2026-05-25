@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['role'] = $user['role'];
             $_SESSION['email'] = $user['email'];
 
-            header('Location: /sites/andrey/pages/dashboard.php');
+            header('Location: /pages/dashboard.php');
             exit;
         }
     } else {
@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Вход | HelpDesk System</title>
-    <link rel="stylesheet" href="/sites/andrey/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body class="login-body">
 
@@ -89,8 +89,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
 
         <div class="login-links">
-            <a href="/sites/andrey/index.php">На главную</a>
-            <a href="/sites/andrey/pages/subscribe.php">Оформить подписку</a>
+            <a href="/index.php">На главную</a>
+            <a href="/pages/subscribe.php">Оформить подписку</a>
         </div>
     </div>
 </section>

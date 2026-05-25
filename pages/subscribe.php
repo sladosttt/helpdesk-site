@@ -11,7 +11,7 @@ $tariff = $_GET['tariff'] ?? '';
 <head>
     <meta charset="UTF-8">
     <title>Оформление подписки | HelpDesk System</title>
-    <link rel="stylesheet" href="/sites/andrey/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body class="login-body">
 
@@ -37,7 +37,7 @@ $tariff = $_GET['tariff'] ?? '';
             Зарегистрируйте компанию, выберите тариф и получите доступ к системе обработки заявок.
         </p>
 
-        <form action="/sites/andrey/pages/payment.php" method="POST" class="login-form">
+        <form action="/pages/payment.php" method="POST" class="login-form">
             <div class="login-input">
                 <input 
                     type="text" 
@@ -101,8 +101,8 @@ $tariff = $_GET['tariff'] ?? '';
         </form>
 
         <div class="login-links">
-            <a href="/sites/andrey/index.php">На главную</a>
-            <a href="/sites/andrey/pages/login.php">Уже есть аккаунт?</a>
+            <a href="/index.php">На главную</a>
+            <a href="/pages/login.php">Уже есть аккаунт?</a>
         </div>
     </div>
 </section>

@@ -4,7 +4,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 if (!isset($_SESSION['user_id'])) {
-    header('Location: /sites/andrey/pages/login.php');
+    header('Location: /pages/login.php');
     exit;
 }
 
@@ -23,5 +23,5 @@ if ($_SESSION['role'] === 'employee') {
     exit;
 }
 
-header('Location: /sites/andrey/pages/login.php');
+header('Location: /pages/login.php');
 exit;

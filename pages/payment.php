@@ -2,7 +2,7 @@
 include '../includes/header.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header('Location: /sites/andrey/pages/subscribe.php');
+    header('Location: /pages/subscribe.php');
     exit;
 }
 
@@ -26,11 +26,11 @@ $tariff_names = [
 ];
 
 if ($password !== $password_confirm) {
-    die('Пароли не совпадают. <a href="/sites/andrey/pages/subscribe.php">Вернуться назад</a>');
+    die('Пароли не совпадают. <a href="/pages/subscribe.php">Вернуться назад</a>');
 }
 
 if (!isset($tariff_prices[$tariff])) {
-    die('Некорректный тариф. <a href="/sites/andrey/pages/subscribe.php">Вернуться назад</a>');
+    die('Некорректный тариф. <a href="/pages/subscribe.php">Вернуться назад</a>');
 }
 
 $_SESSION['order'] = [
@@ -57,7 +57,7 @@ $_SESSION['order'] = [
                 <p><strong>Сумма:</strong> <?= $tariff_prices[$tariff] ?> ₽ / месяц</p>
             </div>
 
-            <form action="/sites/andrey/pages/payment_success.php" method="POST" class="form">
+            <form action="/pages/payment_success.php" method="POST" class="form">
                 <div class="form-group">
                     <label>Номер карты</label>
                     <input 
